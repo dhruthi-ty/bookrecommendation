@@ -56,7 +56,7 @@ export default function Navbar() {
           <Link href="#books" className="text-sm font-medium transition-colors hover:text-primary">
             Explore
           </Link>
-          <Link href="/favorites" className="text-sm font-medium transition-colors hover:text-primary">
+          <Link href="#" className="text-sm font-medium transition-colors hover:text-primary">
             Favorites
           </Link>
           <Link href="#" className="text-sm font-medium transition-colors hover:text-primary">
@@ -114,7 +114,7 @@ export default function Navbar() {
                 Explore
               </Link>
               <Link 
-                href="/favorites" 
+                href="#" 
                 className="px-4 py-2 text-sm font-medium hover:bg-primary/10 rounded-md"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
@@ -136,4 +136,4 @@ export default function Navbar() {
       </AnimatePresence>
     </header>
   )
-} 
+}
